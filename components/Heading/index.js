@@ -2,6 +2,7 @@ import React from 'react';
 
 import styles from './heading.css';
 
+// PURE
 class Heading extends React.PureComponent {
   constructor(props) {
     super(props);
@@ -11,7 +12,7 @@ class Heading extends React.PureComponent {
     const { title } = this.props;
 
     return (
-      ... some complex structure ...
+      ... some complex html structure ...
       <div>
         <div>
           {title}
@@ -24,7 +25,7 @@ class Heading extends React.PureComponent {
     const { chapeau } = this.props;
 
     return (
-      ... some complex structure ...
+      ... some complex html structure ...
       <div>
         <div>
           {title}
